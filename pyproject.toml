@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "discord-mod-bot"
+version = "1.0.0"
+description = "A Discord moderation bot"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+"discord.py" = ">=2.3.2"
+flask = ">=3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
