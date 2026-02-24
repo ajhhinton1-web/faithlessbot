@@ -145,7 +145,7 @@ async def on_ready():
     print(f"✅  Slash commands synced.")
     await bot.change_presence(activity=discord.Activity(
         type=discord.ActivityType.watching,
-        name="the server"
+        name="judge, jury & executioner"
     ))
 
 
